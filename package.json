@@ -1,0 +1,37 @@
+{
+  "name": "project-rules",
+  "version": "1.0.0",
+  "description": "AI coding agent rules and guidelines for Python, TypeScript/NodeJS, SwiftUI, and Golang development",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "generate-rules": "ts-node src/generate-rules.ts",
+    "validate-rules": "ts-node src/validate-rules.ts"
+  },
+  "keywords": [
+    "ai",
+    "coding",
+    "rules",
+    "guidelines",
+    "cursor",
+    "cline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "eslint": "^8.39.0",
+    "glob": "^10.3.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+} 
